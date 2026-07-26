@@ -217,7 +217,7 @@ city_list = [c.strip() for c in cities.split(",") if c.strip()]
 
 st.sidebar.subheader("📈 Stocks (optional)")
 av_api_key = st.sidebar.text_input("Yours_Alpha Vantage API key")
-av_api_key =2222U5VW385JNS5R
+av_api_key = "2222U5VW385JNS5R"
 stock_symbols_input = st.sidebar.text_input("Stock symbols (comma-separated)", "AAPL,MSFT")
 stock_symbols = [s.strip().upper() for s in stock_symbols_input.split(",") if s.strip()]
 
